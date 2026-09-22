@@ -2,6 +2,9 @@
 
 **Live: https://gamedex-omega.vercel.app**
 
+![GAMEDEX home with game rail](docs/home.jpg)
+![GAMEDEX anime detail page](docs/anime-detail.jpg)
+
 A catalog site like IMDB, but for video games and anime. Two catalogs,
 one roof. Trending rails, full-text search, filters by genre, platform,
 status, year and score, a detail page for every title, and a personal
