@@ -1,4 +1,4 @@
-# GAMEDEX — Every Game. Every Anime. One Shelf.
+# GAMEDEX: Every Game. Every Anime. One Shelf.
 
 **Live: https://gamedex-omega.vercel.app**
 
