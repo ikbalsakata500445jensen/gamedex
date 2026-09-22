@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GAMEDEX — Every Game. Every Anime. One Shelf.</title>
+<meta name="description" content="GAMEDEX is a free catalog for video games and anime: trending rails, full-text search, filters, detail pages, and your personal shelf. No account, no cost.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;800&family=Bungee&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%2316130e'/%3E%3Ctext x='16' y='23' font-size='18' text-anchor='middle' fill='%23d43a2f' font-family='monospace' font-weight='bold'%3EG%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+<a class="skip" href="#view">Skip to content</a>
+<header class="awning">
+  <div class="awning-top">
+    <a class="logo" href="#/" aria-label="GAMEDEX home"><span class="logo-badge">G</span><span class="logo-word">GAMEDEX</span></a>
+    <p class="tagline">Every game. Every anime. One shelf.</p>
+    <form class="searchbar" id="searchbar" role="search">
+      <label class="visually-hidden" for="q">Search games and anime</label>
+      <input id="q" name="q" type="search" placeholder="Search 30,000+ games and anime…" autocomplete="off">
+      <button type="submit">FIND IT</button>
+    </form>
+    <nav class="mainnav" aria-label="Main">
+      <a href="#/games">GAMES</a>
+      <a href="#/anime">ANIME</a>
+      <a href="#/shelf">MY SHELF <span class="count" id="shelfCount">0</span></a>
+      <a href="#/settings">SETTINGS</a>
+    </nav>
+  </div>
+  <div class="awning-stripe" aria-hidden="true"></div>
+</header>
+<main id="view" tabindex="-1"></main>
+<footer class="colophon">
+  <div class="colophon-inner">
+    <div>
+      <p class="colophon-title">GAMEDEX VIDEO AND ANIME RENTAL CO.</p>
+      <p>Est. 2026. No late fees. No accounts. Your shelf lives in your browser.</p>
+    </div>
+    <div>
+      <p class="colophon-title">DATA SOURCES (ALL FREE)</p>
+      <p>Anime: Jikan (MyAnimeList) plus AniList. Games: CheapShark plus Steam catalog data plus the GAMEDEX staff catalog. Covers: Steam CDN, MyAnimeList CDN.</p>
+    </div>
+    <div>
+      <p class="colophon-title">FINE PRINT</p>
+      <p>Static site. No backend, no tracking, no secrets. Scores belong to their owners. <a href="#/settings">API settings</a>.</p>
+    </div>
+  </div>
+</footer>
+<div id="errlog" role="alert" hidden></div>
+<script src="js/api.js"></script>
+<script src="js/store.js"></script>
+<script src="js/views.js"></script>
+<script src="js/browse.js"></script>
+<script src="js/detail.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Referrer-Policy: strict-origin-when-cross-origin
+  Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data: https://cdn.akamai.steamstatic.com https://cdn.myanimelist.net https://cdn.myanimelist.net https://*.anilist.co https://img.youtube.com https://i.ytimg.com; connect-src 'self' https://api.jikan.moe https://graphql.anilist.co https://www.cheapshark.com https://api.rawg.io; frame-src https://www.youtube-nocookie.com; base-uri 'self'; form-action 'self'
